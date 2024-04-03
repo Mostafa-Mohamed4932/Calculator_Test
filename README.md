@@ -1,1 +1,1 @@
-A calculator application in the prototyping stage, more additions will be implemented moving on
+A calculator application in the prototyping stage. More additions will be implemented moving on
