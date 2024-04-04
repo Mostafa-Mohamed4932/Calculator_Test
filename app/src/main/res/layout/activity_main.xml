@@ -54,12 +54,13 @@
 
 
 </LinearLayout>
+
     <TextView
+        android:id="@+id/result_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="Result"
-        android:textSize="24sp"
-        android:id="@+id/result_tv"
-        android:gravity="center"/>
+        android:textSize="24sp" />
 
 </LinearLayout>
