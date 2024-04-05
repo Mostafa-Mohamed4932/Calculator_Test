@@ -20,6 +20,7 @@
     <ImageView
         android:layout_width="369dp"
         android:layout_height="158dp"
+        android:layout_centerHorizontal="true"
 
 
         android:src="@drawable/icon_account_circle" />
@@ -50,7 +51,55 @@
         android:inputType="textPassword"
         android:id="@+id/password_input"/>
 
+    <Button
 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:backgroundTint="@color/white"
+        android:padding="18dp"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/login_btn" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Social Login"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="420dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/facebook_btn"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/Facebook" />
+
+    <ImageView
+        android:id="@+id/Linkedin_btn"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+
+
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/LinkedIn" />
 
 
 </RelativeLayout>
